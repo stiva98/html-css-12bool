@@ -1,1 +1,29 @@
-@import "reset.css"
+@import "reset.css";
+
+
+h1 {
+    color: black;
+}
+.box {
+    background-color: blue;
+    padding: 1.25rem;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+.box-2 {
+    background-color: blue;
+    padding: 1.875rem;
+    text-align: center;
+    border: 1px solid white;
+}
+.box-green {
+    background-color: green;
+    padding: 1.25rem 0;
+    color: white;
+    text-align: center;
+    border: 1px solid blue;
+}
+.row > .col {
+    color: white;
+}

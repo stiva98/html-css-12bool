@@ -5,6 +5,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 /*
@@ -23,6 +24,7 @@ COLONNE
 }
 .col-1 {
     width: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
 }
 .col-2 {
     width: calc((100% / 12) * 2);
@@ -125,6 +127,7 @@ RESPONSIVE
     }
     .col-sm-1 {
         width: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
     }
     .col-sm-2 {
         width: calc((100% / 12) * 2);
@@ -224,6 +227,7 @@ RESPONSIVE
     }
     .col-md-1 {
         width: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
     }
     .col-md-2 {
         width: calc((100% / 12) * 2);
@@ -323,6 +327,7 @@ RESPONSIVE
     }
     .col-lg-1 {
         width: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
     }
     .col-lg-2 {
         width: calc((100% / 12) * 2);
